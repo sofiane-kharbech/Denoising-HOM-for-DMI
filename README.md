@@ -10,4 +10,5 @@ This software is under the MIT License.
 
 ## Fonctions scripts
 * f_HOS_Extraction.m: includes the following processes. Source signals generation, channel mixing, blind source separation (BSS), and features extraction.
-* f_CalcHOS.m: given a signal $x$
+* f_CalcHOS.m: given a signal x, this fonction estimates HOC and both denoised and non-denoised HOM.
+* f_SCMA.m: is the fonction that perform the BSS process following the SCMA algorithm. `put-your-code-here` and `www`
