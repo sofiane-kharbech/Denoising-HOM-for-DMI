@@ -3,9 +3,10 @@
 ## License
 Copyright (C) 2020 Sofiane Kharbech, Eric Pierre Simon, Akram Belazi, and Wei Xiang.
 
-Paper citation: S. Kharbech, E. P. Simon, A. Belazi and W. Xiang, "Denoising Higher-Order Moments for Blind Digital Modulation Identification in Multiple-Antenna Systems," in IEEE Wireless Communications Letters, vol. 9, no. 6, pp. 765-769, June 2020.
-
 This software is under the MIT License.
+
+## Paper citation
+S. Kharbech, E. P. Simon, A. Belazi and W. Xiang, "Denoising Higher-Order Moments for Blind Digital Modulation Identification in Multiple-Antenna Systems," in IEEE Wireless Communications Letters, vol. 9, no. 6, pp. 765-769, June 2020.
 
 ## Main scripts
 * `GenDataset.m`: generates a set of HOM the allows identifying the modulation type. In this file, you can edit all the transmitter, channel, and receiver parameters.
