@@ -1,5 +1,8 @@
 
-function hos=f_CalcHOS(x,Pb)
+function hos=f_CalcHOS(x, Pb)
+
+% x  : the signal
+% Pb : the noise power
 
 x=x-mean(x);
 
@@ -34,7 +37,7 @@ m84=m84y-16*m63*Pb-72*m42*Pb^2-96*m21*Pb^3-24*Pb^4;
 c40=m40-3*(m20.^2);
 c60=m60-15*m20*m40+30*(m20.^3);
 
-% denoising
+% cumulants using denoised moments
 c41=m41-3*m20*m21;
 c42=m42-(abs(m20).^2)-2*(m21.^2);
 c61=m61-5*m21*m40-10*m20*m41+30*m21*(m20.^2);
